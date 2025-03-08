@@ -21,7 +21,7 @@ function Home() {
         </header>
 
         <div className="flex flex-col items-center justify-center flex-grow">
-          <div className="mt-8 w-full max-w-5xl grid grid-cols-2 gap-10 p-6 items-center">
+          <div className="mt-8 w-full max-w-5xl grid grid-cols-1 sm:grid-cols-2 gap-10 p-6 items-center">
             {algorithms.map((algo, index) => (
               <Link
                 key={index}
