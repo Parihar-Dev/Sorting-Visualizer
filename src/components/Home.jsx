@@ -14,9 +14,9 @@ function Home() {
   ];
 
   return (
-    <div style={{backgroundColor: "rgb(27,55,90)"}} className="min-h-screen w-screen bg-cover bg-center">
+    <div className="bg-gray-100 min-h-screen w-screen bg-cover bg-center">
 
-        <header className="bg-gray-100 text-black p-6 shadow-lg flex justify-around items-center">
+        <header style={{backgroundColor: "rgb(27,55,90)"}} className="text-white p-6 shadow-lg flex justify-around items-center">
           <h2 className="text-4xl font-bold ">Sorting Visualizer</h2>
         </header>
 
