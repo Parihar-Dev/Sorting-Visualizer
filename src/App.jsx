@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/visualizer/:algorithm" element={<SortingVisualizer />} />
+        <Route path="/:algorithm" element={<SortingVisualizer />} />
       </Routes>
     </Router>
   );

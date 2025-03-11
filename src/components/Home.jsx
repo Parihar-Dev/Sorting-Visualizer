@@ -25,7 +25,7 @@ function Home() {
             {algorithms.map((algo, index) => (
               <Link
                 key={index}
-                to={`/visualizer/${algo.name.toLowerCase().replace(/\s+/g, "")}`}
+                to={`/${algo.name.toLowerCase().replace(/\s+/g, "")}`}
                 className={`flex items-center rounded-full p-4 ${algo.color} text-white text-xl shadow-md transition-transform transform hover:scale-105 hover:shadow-xl`}
               >
                 <div className="w-16 h-16 flex items-center justify-center rounded-full bg-white shadow-md">
